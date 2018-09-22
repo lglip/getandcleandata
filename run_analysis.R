@@ -1,8 +1,12 @@
 ## run_analysis.R
 ## Setting the scene
-setwd("~/Documents/R/FuciHar")
 library(data.table)
 library(dplyr)
+
+wd <- getwd()
+URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(URL, file.path(wd, "dataFiles.zip"))
+unzip(zipfile = "dataFiles.zip")
 
 x_train <- read.table("./train/X_train.txt", header = FALSE)
 y_train <- read.table("./train/y_train.txt", header = FALSE)
