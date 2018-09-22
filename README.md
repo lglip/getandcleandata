@@ -19,9 +19,9 @@ This script executes the following steps:
 6.  It creates a second, independent tidy dataset called `data2` with
     the average of each variable for each activity and each subject.
 
-### CodeBook.Rmd
+### CodeBook.md
 
-**CodeBook.Rmd** is retrievable from the following URL:
+**CodeBook.md** is retrievable from the following URL:
 <https://github.com/lglip/getandcleandata/blob/master/CodeBook.md>
 
 The codebook includes more details on the variables, the data, and most
