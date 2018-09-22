@@ -1,5 +1,4 @@
-Variables of 'data' and 'data2' from the run\_analysis.R script
----------------------------------------------------------------
+### Variables of 'data' and 'data2' from the run\_analysis.R script
 
 The following data frame provides an overview of the variables in data
 table `data` and `data2`. The former was first merged and tidied,
@@ -105,8 +104,7 @@ evaluating the name of each variable in the merged dataset and retaining
 only those variables containing the string *"mean()"* or *"std()"* via
 the `dplyr::select` function.
 
-Transformations of 'data' from the run\_analysis.R script
----------------------------------------------------------
+### Transformations of 'data' from the run\_analysis.R script
 
 After having assigned the appropriate column names to the variables of
 the dataset, the values (integer) of *Activity* were replaced by their
@@ -127,8 +125,7 @@ replacing any unwanted symbols like **"-"**, **","**, **"("** and
 **")"**. Where appropriate, the **t**s and **f**s were replaced by
 *time* and *freq*, respectively.
 
-Transformations of 'data2' from the run\_analysis.R script
-----------------------------------------------------------
+### Transformations of 'data2' from the run\_analysis.R script
 
 The second, independent tidy data set was named `data2` and contains the
 average of each variable for each activity and each subject. Before
