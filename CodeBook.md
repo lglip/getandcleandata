@@ -6,6 +6,67 @@ containing the train and test data of the **Human Activity Recognition
 Using Smartphones Dataset**. The latter was constructed by using `data`
 as input.
 
+    ## # A tibble: 180 x 88
+    ## # Groups:   Subject [?]
+    ##    Subject Activity timeBodyAcc.mea~ timeBodyAcc.mea~ timeBodyAcc.mea~
+    ##      <int> <chr>               <dbl>            <dbl>            <dbl>
+    ##  1       1 LAYING              0.222         -0.0405           -0.113 
+    ##  2       1 SITTING             0.261         -0.00131          -0.105 
+    ##  3       1 STANDING            0.279         -0.0161           -0.111 
+    ##  4       1 WALKING             0.277         -0.0174           -0.111 
+    ##  5       1 WALKING~            0.289         -0.00992          -0.108 
+    ##  6       1 WALKING~            0.255         -0.0240           -0.0973
+    ##  7       2 LAYING              0.281         -0.0182           -0.107 
+    ##  8       2 SITTING             0.277         -0.0157           -0.109 
+    ##  9       2 STANDING            0.278         -0.0184           -0.106 
+    ## 10       2 WALKING             0.276         -0.0186           -0.106 
+    ## # ... with 170 more rows, and 83 more variables:
+    ## #   timeGravityAcc.mean.X <dbl>, timeGravityAcc.mean.Y <dbl>,
+    ## #   timeGravityAcc.mean.Z <dbl>, timeBodyAccJerk.mean.X <dbl>,
+    ## #   timeBodyAccJerk.mean.Y <dbl>, timeBodyAccJerk.mean.Z <dbl>,
+    ## #   timeBodyGyro.mean.X <dbl>, timeBodyGyro.mean.Y <dbl>,
+    ## #   timeBodyGyro.mean.Z <dbl>, timeBodyGyroJerk.mean.X <dbl>,
+    ## #   timeBodyGyroJerk.mean.Y <dbl>, timeBodyGyroJerk.mean.Z <dbl>,
+    ## #   timeBodyAccMag.mean <dbl>, timeGravityAccMag.mean <dbl>,
+    ## #   timeBodyAccJerkMag.mean <dbl>, timeBodyGyroMag.mean <dbl>,
+    ## #   timeBodyGyroJerkMag.mean <dbl>, freqBodyAcc.mean.X <dbl>,
+    ## #   freqBodyAcc.mean.Y <dbl>, freqBodyAcc.mean.Z <dbl>,
+    ## #   freqBodyAcc.meanFreq.X <dbl>, freqBodyAcc.meanFreq.Y <dbl>,
+    ## #   freqBodyAcc.meanFreq.Z <dbl>, freqBodyAccJerk.mean.X <dbl>,
+    ## #   freqBodyAccJerk.mean.Y <dbl>, freqBodyAccJerk.mean.Z <dbl>,
+    ## #   freqBodyAccJerk.meanFreq.X <dbl>, freqBodyAccJerk.meanFreq.Y <dbl>,
+    ## #   freqBodyAccJerk.meanFreq.Z <dbl>, freqBodyGyro.mean.X <dbl>,
+    ## #   freqBodyGyro.mean.Y <dbl>, freqBodyGyro.mean.Z <dbl>,
+    ## #   freqBodyGyro.meanFreq.X <dbl>, freqBodyGyro.meanFreq.Y <dbl>,
+    ## #   freqBodyGyro.meanFreq.Z <dbl>, freqBodyAccMag.mean <dbl>,
+    ## #   freqBodyAccMag.meanFreq <dbl>, freqBodyBodyAccJerkMag.mean <dbl>,
+    ## #   freqBodyBodyAccJerkMag.meanFreq <dbl>, freqBodyBodyGyroMag.mean <dbl>,
+    ## #   freqBodyBodyGyroMag.meanFreq <dbl>,
+    ## #   freqBodyBodyGyroJerkMag.mean <dbl>,
+    ## #   freqBodyBodyGyroJerkMag.meanFreq <dbl>,
+    ## #   angle.timeBodyAccMean.gravity <dbl>,
+    ## #   angle.timeBodyAccJerkMean.gravityMean <dbl>,
+    ## #   angle.timeBodyGyroMean.gravityMean <dbl>,
+    ## #   angle.timeBodyGyroJerkMean.gravityMean <dbl>,
+    ## #   angle.X.gravityMean <dbl>, angle.Y.gravityMean <dbl>,
+    ## #   angle.Z.gravityMean <dbl>, timeBodyAcc.std.X <dbl>,
+    ## #   timeBodyAcc.std.Y <dbl>, timeBodyAcc.std.Z <dbl>,
+    ## #   timeGravityAcc.std.X <dbl>, timeGravityAcc.std.Y <dbl>,
+    ## #   timeGravityAcc.std.Z <dbl>, timeBodyAccJerk.std.X <dbl>,
+    ## #   timeBodyAccJerk.std.Y <dbl>, timeBodyAccJerk.std.Z <dbl>,
+    ## #   timeBodyGyro.std.X <dbl>, timeBodyGyro.std.Y <dbl>,
+    ## #   timeBodyGyro.std.Z <dbl>, timeBodyGyroJerk.std.X <dbl>,
+    ## #   timeBodyGyroJerk.std.Y <dbl>, timeBodyGyroJerk.std.Z <dbl>,
+    ## #   timeBodyAccMag.std <dbl>, timeGravityAccMag.std <dbl>,
+    ## #   timeBodyAccJerkMag.std <dbl>, timeBodyGyroMag.std <dbl>,
+    ## #   timeBodyGyroJerkMag.std <dbl>, freqBodyAcc.std.X <dbl>,
+    ## #   freqBodyAcc.std.Y <dbl>, freqBodyAcc.std.Z <dbl>,
+    ## #   freqBodyAccJerk.std.X <dbl>, freqBodyAccJerk.std.Y <dbl>,
+    ## #   freqBodyAccJerk.std.Z <dbl>, freqBodyGyro.std.X <dbl>,
+    ## #   freqBodyGyro.std.Y <dbl>, freqBodyGyro.std.Z <dbl>,
+    ## #   freqBodyAccMag.std <dbl>, freqBodyBodyAccJerkMag.std <dbl>,
+    ## #   freqBodyBodyGyroMag.std <dbl>, freqBodyBodyGyroJerkMag.std <dbl>
+
     ##                            Data Variables
     ## 1                                 Subject
     ## 2                                Activity
