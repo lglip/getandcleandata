@@ -48,3 +48,5 @@ names(data) <- gsub("fBody", "freqBody", names(data))
 
 ## From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 data2 <- group_by(data, Subject, Activity) %>% summarise_all(mean)
+
+print(data2)
